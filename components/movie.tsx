@@ -3,7 +3,6 @@
 import Link from "next/link";
 import style from "../styles/movie.module.css";
 import { useRouter } from "next/navigation";
-import { on } from "events";
 
 interface MovieProps {
   title: string;
