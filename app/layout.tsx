@@ -1,6 +1,7 @@
 import "../styles/global.css";
 import { Metadata } from "next";
 import Navigation from "../components/navigation";
+import Footer from "../components/footer";
 
 export const metadata: Metadata = {
   title: {
@@ -16,6 +17,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <body>
         <Navigation />
         {children}
+        <Footer />
       </body>
     </html>
   );

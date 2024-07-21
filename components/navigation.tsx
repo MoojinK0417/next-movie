@@ -11,11 +11,11 @@ export default function Navigation() {
     <nav className={styles.nav}>
       <ul>
         <li>
-          <Link href="/">Home</Link> {path === "/" ? "@" : ""}
+          <Link href="/">Home</Link> {path === "/" ? "" : ""}
         </li>
         <li>
           <Link href="/about-us">About Us</Link>{" "}
-          {path === "/about-us" ? "@" : ""}
+          {path === "/about-us" ? "" : ""}
         </li>
       </ul>
     </nav>
